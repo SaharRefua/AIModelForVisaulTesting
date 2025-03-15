@@ -1,0 +1,3358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+			<!-- Google Tag Manager -->
+		<script>
+			(function(w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({
+					'gtm.start': new Date().getTime(),
+					event: 'gtm.js'
+				});
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-TLW3VH9');
+		</script>
+		<!-- End Google Tag Manager -->
+	<!--<link rel="stylesheet" href="/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/bppl-alpha/assets/css/v2/styles-posts.css">
+
+
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap">
+	</noscript>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css" media="print" onload="this.media='all'">
+	<noscript>
+		<link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css" media="print" onload="this.media='all'">
+	</noscript>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="https://www.bypeople.com/wp-content/themes/bppl-alpha/assets/js/v2/main-v2-clean.js?version=1.0"></script>
+
+
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/v2/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/v2/favicon-16x16.png">
+
+
+			<!-- Facebook Pixel Code -->
+		<script>
+			! function(f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function() {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '527079144145419');
+			fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+				src="https://www.facebook.com/tr?id=527079144145419&ev=PageView&noscript=1" /></noscript>
+		<!-- End Facebook Pixel Code -->
+
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="title" content="Beautiful Dropdown List | Bypeople">
+	<meta name="description" content="A dropdown menu including subtle styling effects, achieving a classy appearance. The main element comes with a soft shadow and opens the dropdown. Then, another box appears, showing all the available selections, hover over any of them to see a light blue highlight on the screen.">
+	<meta name="twitter:widgets:csp" content="on">
+	<!-- Facebook fields -->
+	<meta property="og:title" content="Beautiful Dropdown List | Bypeople">
+	<meta property="og:url" content="https://www.bypeople.com/beautiful-dropdown-list-psd">
+	<meta property="og:description" content="A dropdown menu including subtle styling effects, achieving a classy appearance. The main element comes with a soft shadow and opens the dropdown. Then, another box appears, showing all the available selections, hover over any of them to see a light blue highlight on the screen.">
+	<meta property="og:image" content="https://www.bypeople.com/wp-content/uploads/2014/05/beautifuldropdownlist.jpg">
+	<meta property="fb:app_id" content="299022556864918">
+	<!-- Twitter fields -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@bypeopleteam">
+	<meta name="twitter:creator" content="@bypeopleteam">
+	<meta name="twitter:title" content="Beautiful Dropdown List | Bypeople">
+	<meta name="twitter:url" content="https://www.bypeople.com/beautiful-dropdown-list-psd">
+	<meta name="twitter:description" content="A dropdown menu including subtle styling effects, achieving a classy appearance. The main element comes with a soft shadow and opens the dropdown. Then, another box appears, showing all the available selections, hover over any of them to see a light blue highlight on the screen.">
+	<meta name="twitter:image" content="https://www.bypeople.com/wp-content/uploads/2014/05/beautifuldropdownlist.jpg">
+
+	<title>Beautiful Dropdown List | Bypeople</title>
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org/",
+			"@type": "WebSite",
+			"name": "Beautiful Dropdown List | Bypeople",
+			"headline": "Curated network for developers and designers",
+			"image": "https://www.bypeople.com/wp-content/uploads/2014/05/beautifuldropdownlist.jpg",
+			"thumbnailUrl": "https://www.bypeople.com/wp-content/uploads/2014/05/beautifuldropdownlist.jpg",
+			"description": "A dropdown menu including subtle styling effects, achieving a classy appearance. The main element comes with a soft shadow and opens the dropdown. Then, another box appears, showing all the available selections, hover over any of them to see a light blue highlight on the screen.",
+			"accessMode": ["visual", "tactile"],
+			"accessibilityControl": ["fullMouseControl", "fullKeyboardControl"],
+			"keywords": ["jQuery Autocomplete", "jQuery Audio libraries", "Bootstrap Themes", "Free Prestashop Themes", "Elegant Tumblr Themes", "Drupal Themes", "Concrete5 Themes", "BuddyPress Themes", "jQuery Blur", "jQuery Box", "jQuery Breadcrumb", "jQuery Button", "JQuery Galleries", "jQuery Gauges", "JQuery Grids", "jQuery Layout", "jQuery Lightbox", "jQuery Link", "jQuery Live Search", "jQuery Login", "jQuery Map", "Lazy load tools", "Photoshop Illustrations", "Photoshop List Templates", "Photoshop Login Forms", "Photoshop Mobile App Icons", "Photoshop Modal", "Photoshop Realistic Drawings", "Photoshop Ribbon", "Photoshop Settings Widgets", "Photoshop Shadow", "Photoshop Sidebar Menus"],
+			"license": "https://www.bypeople.com/licensecommercial.pdf"
+		}
+	</script>
+
+
+	
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script src="https://www.googletagmanager.com/gtag/js?id=AW-11077278143"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-JGB5E47BV1');
+		</script>
+
+		<script type="text/javascript" src="//l.getsitecontrol.com/p4ryye1w.js"></script>
+
+	
+
+	<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='hide-admin-bar-based-on-user-roles-css' href='https://www.bypeople.com/wp-content/plugins/hide-admin-bar-based-on-user-roles/public/css/hide-admin-bar-based-on-user-roles-public.css' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.bypeople.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.bypeople.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.bypeople.com/wp-content/plugins/hide-admin-bar-based-on-user-roles/public/js/hide-admin-bar-based-on-user-roles-public.js" id="hide-admin-bar-based-on-user-roles-js"></script>
+<link rel="https://api.w.org/" href="https://www.bypeople.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.bypeople.com/wp-json/wp/v2/posts/12286" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bypeople.com/xmlrpc.php?rsd" />
+<link rel="canonical" href="https://www.bypeople.com/beautiful-dropdown-list-psd/" />
+<link rel='shortlink' href='https://www.bypeople.com/?p=12286' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.bypeople.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bypeople.com%2Fbeautiful-dropdown-list-psd%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.bypeople.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bypeople.com%2Fbeautiful-dropdown-list-psd%2F&#038;format=xml" />
+<link rel="icon" href="https://www.bypeople.com/wp-content/uploads/2020/08/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.bypeople.com/wp-content/uploads/2020/08/favicon-32x32.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.bypeople.com/wp-content/uploads/2020/08/favicon-32x32.png" />
+<meta name="msapplication-TileImage" content="https://www.bypeople.com/wp-content/uploads/2020/08/favicon-32x32.png" />
+</head>
+
+<body>
+
+	
+<aside class="detail-modal col-12 col-md-12 col-lg-12 col-xl-12" id="detail-view">
+	<span class="list-nav prev-list" data-navigate="prev"><i class="fa fa-chevron-left fa-4x"></i></span>
+	<span class="list-nav next-list" data-navigate="next"><i class="fa fa-chevron-right fa-4x"></i></span>
+	<button class="close-detail-btn"><i class="fa fa-times fa-2x"></i></button>
+	<div class="detail-v2-main-scroll">
+		<div class="container">
+			<div class="detail-content">
+				
+			</div>
+		</div>
+	</div>
+</aside><div class="v2-nav">
+	<style>
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+  .v2-nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72px;
+    z-index: 99;
+    background-color: #fff;
+  }
+
+  #main-v2-toggler {
+    position: fixed;
+    right: 46px;
+    border: none;
+    height: 25px;
+  }
+
+  form.search-form-v2 input#search {
+    width: 125px;
+    height: 36px;
+    border: none;
+    background-color: #fff;
+    border-radius: 15px 0 0 15px;
+    border-right: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  form.search-form-v2 input#search::placeholder {
+    color: gray;
+    font-family: 'Poppins', 'Poppins', sans-serif;
+  }
+
+  .btn-login-cart-vip {
+    text-align: center;
+    align-items: center;
+    display: contents;
+  }
+
+  .become-vip-button {
+    background: linear-gradient(116.49deg, #7000ff, #e700b7 47.4%, #ffa000);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 6px 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  #become-vip-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .search-form-v2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 0 6px rgb(0 0 0 / 3%), 0 5px 16px rgb(0 0 0 / 4%), 0 7px 10px rgb(0 0 0 / 8%);
+    border-radius: 10px;
+  }
+
+  .search-form-v2:hover {
+    box-shadow: 0 7px 6px rgba(0, 0, 0, .03), 0 15px 16px rgba(0, 0, 0, .04), 0 24px 30px rgba(0, 0, 0, .08);
+  }
+
+  .submit-search {
+    background-color: #fff;
+    color: #000;
+    line-height: 1;
+    width: 50px;
+    height: 36px;
+    font-size: 18px;
+    padding: 0 16px;
+    border-radius: 0 15px 15px 0;
+    border-left: none;
+    margin-left: 3px;
+  }
+
+  .submit-search:hover {
+    opacity: 0.8;
+  }
+
+  #user-name {
+    font-size: 14px;
+    color: var(--color1);
+    opacity: 0.7;
+    display: inline-block;
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    max-width: 130px;
+    vertical-align: middle;
+    font-weight: 600;
+  }
+
+  #user-name.vip-user:after {
+    content: " (VIP)";
+    font-weight: 600;
+    color: var(--first-bypeople-color);
+  }
+
+  .mx-3 {
+    margin-left: 1rem !important;
+  }
+
+  #login-button:hover,
+  #join-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  #menu-menu_v2 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* #menu-menu_v2 li:first-child {
+    min-width: 137px !important;
+  } */
+  .bppl-v2-navbar .nav-main .nav-item>.nav-link {
+    font-family: 'Poppins', serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 400;
+  }
+
+  .dropdown-link {
+    font-family: 'Poppins', serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 400;
+    background-color: unset;
+  }
+
+  .nav-link:hover,
+  .dropdown-link:hover {
+    background-color: #efefef;
+  }
+
+  .form-control {
+    font-size: 16px;
+  }
+
+  #mobile-deals-menu {
+    display: none;
+  }
+
+  .dropdown-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+  }
+
+  .dropdown-menu-deals {
+    min-width: 45rem;
+    border: unset;
+    box-shadow: 0 0px 22px -14px rgb(0 0 0);
+  }
+
+  @media (max-width: 1024px) {
+    .bppl-v2-navbar .nav-main .nav-item>.nav-link {
+      text-align: right;
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .become-vip-button {
+      margin: 5% 0;
+      width: 109px;
+    }
+
+    form.search-form-v2 input#search {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1270px) {
+    form.search-form-v2 input#search {
+      width: 98px;
+    }
+  }
+
+  @media (max-width: 1360px) {
+    #join-button {
+      display: none;
+    }
+  }
+
+  @media (max-width: 992px) {
+
+    .btn-login-cart-vip {
+      text-align: right;
+      align-items: flex-start;
+      display: block;
+    }
+
+    .btn-login-cart-vip li {
+      margin: 0px !important;
+    }
+
+    #user-data {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .nav-menu-items {
+      display: none;
+    }
+
+    #facebook-community {
+      display: none;
+    }
+
+    .navbar-nav .dropdown-menu {
+      margin-left: -40px;
+    }
+
+    #li-user-name {
+      margin-right: 0 !important;
+    }
+
+    #dropdown-items {
+      margin: 0 !important;
+    }
+
+    #dropdown-menu {
+      display: none;
+    }
+
+    #mobile-deals-menu {
+      display: block;
+      text-align: right;
+      margin: 20px 0 50px 0;
+    }
+
+    .dropdown-item {
+      padding: 5px 0;
+    }
+  }
+
+  .fixed-bottom-pricing {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    z-index: 1030;
+
+  }
+
+  .fixed-bottom-pricing #navbarDropdown {
+    text-align: end;
+    color: #0d84ff;
+    padding: 10px 24px;
+  }
+
+  .fixed-bottom-pricing .fa-trash-alt {
+    color: #ff00009c;
+  }
+
+  .fixed-bottom-pricing .navbar-nav .dropdown-menu {
+    margin-left: 0 !important;
+  }
+
+  @media (max-width: 700px) {
+
+    .fixed-bottom-pricing {
+      padding-top: 2px;
+      right: 0px;
+      bottom: 0px;
+    }
+
+    .fixed-bottom-pricing #navbarDropdown {
+      text-align: end;
+      color: #0d84ff;
+      padding: 2px 2px;
+    }
+
+
+
+
+    .fixed-bottom-pricing .navbar-nav .dropdown-menu {
+      margin-left: 5px !important;
+    }
+
+
+  }
+
+
+  @media (max-width: 900px) {
+    .alert-add-to-cart {
+      display: none;
+    }
+  }
+
+  .widget-visible,
+  .widget-visible iframe {
+    z-index: 99 !important;
+  }
+
+
+  @-webkit-keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .alert-add-to-cart {
+    -webkit-animation: fadein 1s ease-in alternate;
+    -moz-animation: fadein 1s ease-in alternate;
+    animation: fadein 1s ease-in alternate;
+  }
+
+  .prices-box {
+    border: 3px solid rgb(224, 8, 118);
+  }
+</style>
+
+<nav id="bppl-v2-navbar" class="navbar navbar-expand-lg navbar-light bppl-v2-navbar">
+  <!-- <div class="mobile-nav">
+    <ul class="nav-menu-items">
+      <a href="https://www.bypeople.com/premium" style="font-family: 'Poppins', sans-serif;font-size: 14px;font-weight: 600;color: #000;text-transform: capitalize;">deals</a>
+      <a href="https://freebies.bypeople.com" style="font-family: 'Poppins', sans-serif;font-size: 14px;font-weight: 600;color: #000;text-transform: capitalize;">&nbsp;&nbsp;&nbsp;&nbsp;freebies</a>
+    </ul>
+  </div> -->
+  <a class="navbar-brand mr-auto ml-md-auto" href="https://www.bypeople.com/">
+    <svg width="151" height="44" viewBox="0 0 151 44" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 5px 0 0">
+      <path d="M18.2163 23.1511C18.3808 23.3836 18.4551 23.668 18.4255 23.9512C18.3958 24.2344 18.2641 24.4972 18.055 24.6905C17.838 24.8905 17.5537 25.0015 17.2586 25.0015C16.9839 25.0016 16.7179 24.9051 16.5073 24.7288L11.141 20.2412C10.027 19.3096 8.40584 19.3096 7.29191 20.2411L1.92557 24.7288C1.71487 24.9051 1.44886 25.0016 1.17413 25.0015C0.878925 25.0018 0.594481 24.8907 0.377542 24.6905C0.168678 24.497 0.0371856 24.2343 0.00751073 23.9511C-0.0221641 23.668 0.0520008 23.3837 0.216213 23.1511L4.44038 17.1891C5.21876 16.0905 5.16987 14.6078 4.32081 13.5629L0.263276 8.56925C0.0852807 8.35064 -0.00799108 8.0752 0.000537089 7.79342C0.00906525 7.51164 0.118825 7.24238 0.309715 7.03493C0.419768 6.91549 0.55339 6.82015 0.702147 6.75497C0.850905 6.6898 1.01157 6.65619 1.17398 6.65625C1.41003 6.65644 1.64052 6.72789 1.83527 6.86129L7.52414 10.7478C8.54463 11.4449 9.88824 11.4449 10.9087 10.7478L16.5976 6.86129C16.7918 6.72787 17.0218 6.6564 17.2574 6.65625C17.4199 6.65602 17.5806 6.68955 17.7294 6.75474C17.8782 6.81993 18.0119 6.91535 18.1219 7.03493C18.313 7.2422 18.423 7.51137 18.4318 7.79315C18.4406 8.07493 18.3475 8.35047 18.1697 8.56925L14.1123 13.563C13.2633 14.6079 13.2144 16.0904 13.9927 17.189L18.2163 23.1511Z" fill="url(#paint0_linear)" />
+      <path d="M11.2291 7.0783C11.2376 7.6207 11.0302 8.14423 10.6527 8.5338C10.2752 8.92338 9.7585 9.14713 9.2161 9.15582C8.67376 9.14705 8.15709 8.92329 7.77967 8.53373C7.40225 8.14416 7.19497 7.62065 7.20337 7.0783C7.19505 6.5359 7.40235 6.0124 7.77973 5.62272C8.15711 5.23304 8.67372 5.00907 9.2161 5C9.75854 5.00899 10.2752 5.23292 10.6527 5.6226C11.0301 6.01229 11.2375 6.53585 11.2291 7.0783V7.0783Z" fill="url(#paint1_linear)" />
+      <path d="M34.3 14.84C35.0867 14.9867 35.7333 15.38 36.24 16.02C36.7467 16.66 37 17.3933 37 18.22C37 18.9667 36.8133 19.6267 36.44 20.2C36.08 20.76 35.5533 21.2 34.86 21.52C34.1667 21.84 33.3467 22 32.4 22H26.38V8.04H32.14C33.0867 8.04 33.9 8.19333 34.58 8.5C35.2733 8.80667 35.7933 9.23333 36.14 9.78C36.5 10.3267 36.68 10.9467 36.68 11.64C36.68 12.4533 36.46 13.1333 36.02 13.68C35.5933 14.2267 35.02 14.6133 34.3 14.84ZM29.18 13.8H31.74C32.4067 13.8 32.92 13.6533 33.28 13.36C33.64 13.0533 33.82 12.62 33.82 12.06C33.82 11.5 33.64 11.0667 33.28 10.76C32.92 10.4533 32.4067 10.3 31.74 10.3H29.18V13.8ZM32 19.72C32.68 19.72 33.2067 19.56 33.58 19.24C33.9667 18.92 34.16 18.4667 34.16 17.88C34.16 17.28 33.96 16.8133 33.56 16.48C33.16 16.1333 32.62 15.96 31.94 15.96H29.18V19.72H32ZM49.4316 10.92L42.5716 27.24H39.5916L41.9916 21.72L37.5516 10.92H40.6916L43.5516 18.66L46.4516 10.92H49.4316ZM60.7209 12.36C60.7209 13.1067 60.5409 13.8067 60.1809 14.46C59.8343 15.1133 59.2809 15.64 58.5209 16.04C57.7743 16.44 56.8276 16.64 55.6809 16.64H53.3409V22H50.5409V8.04H55.6809C56.7609 8.04 57.6809 8.22667 58.4409 8.6C59.2009 8.97333 59.7676 9.48667 60.1409 10.14C60.5276 10.7933 60.7209 11.5333 60.7209 12.36ZM55.5609 14.38C56.3343 14.38 56.9076 14.2067 57.2809 13.86C57.6543 13.5 57.8409 13 57.8409 12.36C57.8409 11 57.0809 10.32 55.5609 10.32H53.3409V14.38H55.5609ZM72.6089 16.22C72.6089 16.62 72.5822 16.98 72.5289 17.3H64.4289C64.4956 18.1 64.7756 18.7267 65.2689 19.18C65.7622 19.6333 66.3689 19.86 67.0889 19.86C68.1289 19.86 68.8689 19.4133 69.3089 18.52H72.3289C72.0089 19.5867 71.3956 20.4667 70.4889 21.16C69.5822 21.84 68.4689 22.18 67.1489 22.18C66.0822 22.18 65.1222 21.9467 64.2689 21.48C63.4289 21 62.7689 20.3267 62.2889 19.46C61.8222 18.5933 61.5889 17.5933 61.5889 16.46C61.5889 15.3133 61.8222 14.3067 62.2889 13.44C62.7556 12.5733 63.4089 11.9067 64.2489 11.44C65.0889 10.9733 66.0556 10.74 67.1489 10.74C68.2022 10.74 69.1422 10.9667 69.9689 11.42C70.8089 11.8733 71.4556 12.52 71.9089 13.36C72.3756 14.1867 72.6089 15.14 72.6089 16.22ZM69.7089 15.42C69.6956 14.7 69.4356 14.1267 68.9289 13.7C68.4222 13.26 67.8022 13.04 67.0689 13.04C66.3756 13.04 65.7889 13.2533 65.3089 13.68C64.8422 14.0933 64.5556 14.6733 64.4489 15.42H69.7089ZM79.1727 22.18C78.106 22.18 77.146 21.9467 76.2927 21.48C75.4393 21 74.766 20.3267 74.2727 19.46C73.7927 18.5933 73.5527 17.5933 73.5527 16.46C73.5527 15.3267 73.7993 14.3267 74.2927 13.46C74.7993 12.5933 75.486 11.9267 76.3527 11.46C77.2193 10.98 78.186 10.74 79.2527 10.74C80.3193 10.74 81.286 10.98 82.1527 11.46C83.0193 11.9267 83.6993 12.5933 84.1927 13.46C84.6993 14.3267 84.9527 15.3267 84.9527 16.46C84.9527 17.5933 84.6927 18.5933 84.1727 19.46C83.666 20.3267 82.9727 21 82.0927 21.48C81.226 21.9467 80.2527 22.18 79.1727 22.18ZM79.1727 19.74C79.6793 19.74 80.1527 19.62 80.5927 19.38C81.046 19.1267 81.406 18.7533 81.6727 18.26C81.9393 17.7667 82.0727 17.1667 82.0727 16.46C82.0727 15.4067 81.7927 14.6 81.2327 14.04C80.686 13.4667 80.0127 13.18 79.2127 13.18C78.4127 13.18 77.7393 13.4667 77.1927 14.04C76.6593 14.6 76.3927 15.4067 76.3927 16.46C76.3927 17.5133 76.6527 18.3267 77.1727 18.9C77.706 19.46 78.3727 19.74 79.1727 19.74ZM89.4066 12.52C89.7666 12.0133 90.2599 11.5933 90.8866 11.26C91.5266 10.9133 92.2532 10.74 93.0666 10.74C94.0132 10.74 94.8666 10.9733 95.6266 11.44C96.3999 11.9067 97.0066 12.5733 97.4466 13.44C97.8999 14.2933 98.1266 15.2867 98.1266 16.42C98.1266 17.5533 97.8999 18.56 97.4466 19.44C97.0066 20.3067 96.3999 20.98 95.6266 21.46C94.8666 21.94 94.0132 22.18 93.0666 22.18C92.2532 22.18 91.5332 22.0133 90.9066 21.68C90.2932 21.3467 89.7932 20.9267 89.4066 20.42V27.28H86.6066V10.92H89.4066V12.52ZM95.2666 16.42C95.2666 15.7533 95.1266 15.18 94.8466 14.7C94.5799 14.2067 94.2199 13.8333 93.7666 13.58C93.3266 13.3267 92.8466 13.2 92.3266 13.2C91.8199 13.2 91.3399 13.3333 90.8866 13.6C90.4466 13.8533 90.0866 14.2267 89.8066 14.72C89.5399 15.2133 89.4066 15.7933 89.4066 16.46C89.4066 17.1267 89.5399 17.7067 89.8066 18.2C90.0866 18.6933 90.4466 19.0733 90.8866 19.34C91.3399 19.5933 91.8199 19.72 92.3266 19.72C92.8466 19.72 93.3266 19.5867 93.7666 19.32C94.2199 19.0533 94.5799 18.6733 94.8466 18.18C95.1266 17.6867 95.2666 17.1 95.2666 16.42ZM102.561 7.2V22H99.7612V7.2H102.561ZM115.228 16.22C115.228 16.62 115.201 16.98 115.148 17.3H107.048C107.114 18.1 107.394 18.7267 107.888 19.18C108.381 19.6333 108.988 19.86 109.708 19.86C110.748 19.86 111.488 19.4133 111.928 18.52H114.948C114.628 19.5867 114.014 20.4667 113.108 21.16C112.201 21.84 111.088 22.18 109.768 22.18C108.701 22.18 107.741 21.9467 106.888 21.48C106.048 21 105.388 20.3267 104.908 19.46C104.441 18.5933 104.208 17.5933 104.208 16.46C104.208 15.3133 104.441 14.3067 104.908 13.44C105.374 12.5733 106.028 11.9067 106.868 11.44C107.708 10.9733 108.674 10.74 109.768 10.74C110.821 10.74 111.761 10.9667 112.588 11.42C113.428 11.8733 114.074 12.52 114.528 13.36C114.994 14.1867 115.228 15.14 115.228 16.22ZM112.328 15.42C112.314 14.7 112.054 14.1267 111.548 13.7C111.041 13.26 110.421 13.04 109.688 13.04C108.994 13.04 108.408 13.2533 107.928 13.68C107.461 14.0933 107.174 14.6733 107.068 15.42H112.328Z" fill="#24252C" />
+
+      <style>
+        svg #ct-link #ct-highlight {
+          transition: all 300ms ease-in-out;
+        }
+
+        svg #ct-link:hover #ct-highlight {
+          fill: #97fffb;
+        }
+      </style>
+      <rect fill="black" fill-opacity="0" x="38.4355" y="0.25" width="89.0278" height="16.5" />
+      <a id="ct-link" target="_blank" href="https://www.bypeople.com/creative-toolkit/">
+        <rect id="ct-highlight" x="62" y="30" width="89" height="11" fill="#FEE45A" />
+      </a>
+      <path d="M30.973 33.577C30.973 34.215 30.753 34.7467 30.313 35.172C29.8803 35.59 29.2167 35.799 28.322 35.799H26.848V39H25.847V31.333H28.322C29.1873 31.333 29.8437 31.542 30.291 31.96C30.7457 32.378 30.973 32.917 30.973 33.577ZM28.322 34.974C28.8793 34.974 29.29 34.853 29.554 34.611C29.818 34.369 29.95 34.0243 29.95 33.577C29.95 32.631 29.4073 32.158 28.322 32.158H26.848V34.974H28.322ZM31.8431 35.964C31.8431 35.348 31.9678 34.809 32.2171 34.347C32.4665 33.8777 32.8075 33.5147 33.2401 33.258C33.6801 33.0013 34.1678 32.873 34.7031 32.873C35.2311 32.873 35.6895 32.9867 36.0781 33.214C36.4668 33.4413 36.7565 33.7273 36.9471 34.072V32.972H37.9591V39H36.9471V37.878C36.7491 38.23 36.4521 38.5233 36.0561 38.758C35.6675 38.9853 35.2128 39.099 34.6921 39.099C34.1568 39.099 33.6728 38.967 33.2401 38.703C32.8075 38.439 32.4665 38.0687 32.2171 37.592C31.9678 37.1153 31.8431 36.5727 31.8431 35.964ZM36.9471 35.975C36.9471 35.5203 36.8555 35.1243 36.6721 34.787C36.4888 34.4497 36.2395 34.193 35.9241 34.017C35.6161 33.8337 35.2751 33.742 34.9011 33.742C34.5271 33.742 34.1861 33.83 33.8781 34.006C33.5701 34.182 33.3245 34.4387 33.1411 34.776C32.9578 35.1133 32.8661 35.5093 32.8661 35.964C32.8661 36.426 32.9578 36.8293 33.1411 37.174C33.3245 37.5113 33.5701 37.7717 33.8781 37.955C34.1861 38.131 34.5271 38.219 34.9011 38.219C35.2751 38.219 35.6161 38.131 35.9241 37.955C36.2395 37.7717 36.4888 37.5113 36.6721 37.174C36.8555 36.8293 36.9471 36.4297 36.9471 35.975ZM40.6517 33.951C40.8277 33.6063 41.077 33.3387 41.3997 33.148C41.7297 32.9573 42.1294 32.862 42.5987 32.862V33.896H42.3347C41.2127 33.896 40.6517 34.5047 40.6517 35.722V39H39.6507V32.972H40.6517V33.951ZM44.9752 33.797V37.35C44.9752 37.6433 45.0376 37.8523 45.1622 37.977C45.2869 38.0943 45.5032 38.153 45.8112 38.153H46.5482V39H45.6462C45.0889 39 44.6709 38.8717 44.3922 38.615C44.1136 38.3583 43.9742 37.9367 43.9742 37.35V33.797H43.1932V32.972H43.9742V31.454H44.9752V32.972H46.5482V33.797H44.9752ZM53.3227 39.099C52.758 39.099 52.2447 38.9707 51.7827 38.714C51.328 38.4573 50.9687 38.0943 50.7047 37.625C50.448 37.1483 50.3197 36.5983 50.3197 35.975C50.3197 35.359 50.4517 34.8163 50.7157 34.347C50.987 33.8703 51.3537 33.5073 51.8157 33.258C52.2777 33.0013 52.7947 32.873 53.3667 32.873C53.9387 32.873 54.4557 33.0013 54.9177 33.258C55.3797 33.5073 55.7427 33.8667 56.0067 34.336C56.278 34.8053 56.4137 35.3517 56.4137 35.975C56.4137 36.5983 56.2743 37.1483 55.9957 37.625C55.7243 38.0943 55.354 38.4573 54.8847 38.714C54.4153 38.9707 53.8947 39.099 53.3227 39.099ZM53.3227 38.219C53.682 38.219 54.0193 38.1347 54.3347 37.966C54.65 37.7973 54.903 37.5443 55.0937 37.207C55.2917 36.8697 55.3907 36.459 55.3907 35.975C55.3907 35.491 55.2953 35.0803 55.1047 34.743C54.914 34.4057 54.6647 34.1563 54.3567 33.995C54.0487 33.8263 53.715 33.742 53.3557 33.742C52.989 33.742 52.6517 33.8263 52.3437 33.995C52.043 34.1563 51.801 34.4057 51.6177 34.743C51.4343 35.0803 51.3427 35.491 51.3427 35.975C51.3427 36.4663 51.4307 36.8807 51.6067 37.218C51.79 37.5553 52.032 37.8083 52.3327 37.977C52.6333 38.1383 52.9633 38.219 53.3227 38.219ZM60.1828 33.797H58.9178V39H57.9168V33.797H57.1358V32.972H57.9168V32.543C57.9168 31.8683 58.0891 31.377 58.4338 31.069C58.7858 30.7537 59.3468 30.596 60.1168 30.596V31.432C59.6768 31.432 59.3651 31.52 59.1818 31.696C59.0058 31.8647 58.9178 32.147 58.9178 32.543V32.972H60.1828V33.797ZM63.8205 35.15C63.8205 34.3947 63.9892 33.72 64.3265 33.126C64.6712 32.5247 65.1369 32.059 65.7235 31.729C66.3175 31.3917 66.9812 31.223 67.7145 31.223C68.5725 31.223 69.3242 31.443 69.9695 31.883C70.6149 32.323 71.0659 32.9317 71.3225 33.709H69.5515C69.3755 33.3423 69.1262 33.0673 68.8035 32.884C68.4882 32.7007 68.1215 32.609 67.7035 32.609C67.2562 32.609 66.8565 32.7153 66.5045 32.928C66.1599 33.1333 65.8885 33.4267 65.6905 33.808C65.4999 34.1893 65.4045 34.6367 65.4045 35.15C65.4045 35.656 65.4999 36.1033 65.6905 36.492C65.8885 36.8733 66.1599 37.1703 66.5045 37.383C66.8565 37.5883 67.2562 37.691 67.7035 37.691C68.1215 37.691 68.4882 37.5993 68.8035 37.416C69.1262 37.2253 69.3755 36.9467 69.5515 36.58H71.3225C71.0659 37.3647 70.6149 37.977 69.9695 38.417C69.3315 38.8497 68.5799 39.066 67.7145 39.066C66.9812 39.066 66.3175 38.901 65.7235 38.571C65.1369 38.2337 64.6712 37.768 64.3265 37.174C63.9892 36.58 63.8205 35.9053 63.8205 35.15ZM74.1779 33.852C74.3759 33.5293 74.6326 33.2763 74.9479 33.093C75.2706 32.9097 75.6372 32.818 76.0479 32.818V34.435H75.6409C75.1569 34.435 74.7902 34.5487 74.5409 34.776C74.2989 35.0033 74.1779 35.3993 74.1779 35.964V39H72.6379V32.906H74.1779V33.852ZM82.7502 35.821C82.7502 36.041 82.7355 36.239 82.7062 36.415H78.2512C78.2878 36.855 78.4418 37.1997 78.7132 37.449C78.9845 37.6983 79.3182 37.823 79.7142 37.823C80.2862 37.823 80.6932 37.5773 80.9352 37.086H82.5962C82.4202 37.6727 82.0828 38.1567 81.5842 38.538C81.0855 38.912 80.4732 39.099 79.7472 39.099C79.1605 39.099 78.6325 38.9707 78.1632 38.714C77.7012 38.45 77.3382 38.0797 77.0742 37.603C76.8175 37.1263 76.6892 36.5763 76.6892 35.953C76.6892 35.3223 76.8175 34.7687 77.0742 34.292C77.3308 33.8153 77.6902 33.4487 78.1522 33.192C78.6142 32.9353 79.1458 32.807 79.7472 32.807C80.3265 32.807 80.8435 32.9317 81.2982 33.181C81.7602 33.4303 82.1158 33.786 82.3652 34.248C82.6218 34.7027 82.7502 35.227 82.7502 35.821ZM81.1552 35.381C81.1478 34.985 81.0048 34.6697 80.7262 34.435C80.4475 34.193 80.1065 34.072 79.7032 34.072C79.3218 34.072 78.9992 34.1893 78.7352 34.424C78.4785 34.6513 78.3208 34.9703 78.2622 35.381H81.1552ZM83.4782 35.931C83.4782 35.315 83.5992 34.7687 83.8412 34.292C84.0906 33.8153 84.4242 33.4487 84.8422 33.192C85.2676 32.9353 85.7406 32.807 86.2612 32.807C86.7159 32.807 87.1119 32.8987 87.4492 33.082C87.7939 33.2653 88.0689 33.4963 88.2742 33.775V32.906H89.8252V39H88.2742V38.109C88.0762 38.395 87.8012 38.6333 87.4492 38.824C87.1046 39.0073 86.7049 39.099 86.2502 39.099C85.7369 39.099 85.2676 38.967 84.8422 38.703C84.4242 38.439 84.0906 38.0687 83.8412 37.592C83.5992 37.108 83.4782 36.5543 83.4782 35.931ZM88.2742 35.953C88.2742 35.579 88.2009 35.26 88.0542 34.996C87.9076 34.7247 87.7096 34.5193 87.4602 34.38C87.2109 34.2333 86.9432 34.16 86.6572 34.16C86.3712 34.16 86.1072 34.2297 85.8652 34.369C85.6232 34.5083 85.4252 34.7137 85.2712 34.985C85.1246 35.249 85.0512 35.5643 85.0512 35.931C85.0512 36.2977 85.1246 36.6203 85.2712 36.899C85.4252 37.1703 85.6232 37.3793 85.8652 37.526C86.1146 37.6727 86.3786 37.746 86.6572 37.746C86.9432 37.746 87.2109 37.6763 87.4602 37.537C87.7096 37.3903 87.9076 37.185 88.0542 36.921C88.2009 36.6497 88.2742 36.327 88.2742 35.953ZM93.1223 34.171V37.119C93.1223 37.3243 93.17 37.4747 93.2653 37.57C93.368 37.658 93.5366 37.702 93.7713 37.702H94.4863V39H93.5183C92.2203 39 91.5713 38.3693 91.5713 37.108V34.171H90.8453V32.906H91.5713V31.399H93.1223V32.906H94.4863V34.171H93.1223ZM96.375 32.18C96.1036 32.18 95.8763 32.0957 95.693 31.927C95.517 31.751 95.429 31.5347 95.429 31.278C95.429 31.0213 95.517 30.8087 95.693 30.64C95.8763 30.464 96.1036 30.376 96.375 30.376C96.6463 30.376 96.87 30.464 97.046 30.64C97.2293 30.8087 97.321 31.0213 97.321 31.278C97.321 31.5347 97.2293 31.751 97.046 31.927C96.87 32.0957 96.6463 32.18 96.375 32.18ZM97.134 32.906V39H95.594V32.906H97.134ZM101.196 37.581L102.736 32.906H104.375L102.12 39H100.25L98.0065 32.906H99.6565L101.196 37.581ZM110.905 35.821C110.905 36.041 110.891 36.239 110.861 36.415H106.406C106.443 36.855 106.597 37.1997 106.868 37.449C107.14 37.6983 107.473 37.823 107.869 37.823C108.441 37.823 108.848 37.5773 109.09 37.086H110.751C110.575 37.6727 110.238 38.1567 109.739 38.538C109.241 38.912 108.628 39.099 107.902 39.099C107.316 39.099 106.788 38.9707 106.318 38.714C105.856 38.45 105.493 38.0797 105.229 37.603C104.973 37.1263 104.844 36.5763 104.844 35.953C104.844 35.3223 104.973 34.7687 105.229 34.292C105.486 33.8153 105.845 33.4487 106.307 33.192C106.769 32.9353 107.301 32.807 107.902 32.807C108.482 32.807 108.999 32.9317 109.453 33.181C109.915 33.4303 110.271 33.786 110.52 34.248C110.777 34.7027 110.905 35.227 110.905 35.821ZM109.31 35.381C109.303 34.985 109.16 34.6697 108.881 34.435C108.603 34.193 108.262 34.072 107.858 34.072C107.477 34.072 107.154 34.1893 106.89 34.424C106.634 34.6513 106.476 34.9703 106.417 35.381H109.31ZM117.255 31.322V32.565H115.209V39H113.669V32.565H111.623V31.322H117.255ZM121.084 39.099C120.497 39.099 119.969 38.9707 119.5 38.714C119.031 38.45 118.66 38.0797 118.389 37.603C118.125 37.1263 117.993 36.5763 117.993 35.953C117.993 35.3297 118.129 34.7797 118.4 34.303C118.679 33.8263 119.056 33.4597 119.533 33.203C120.01 32.939 120.541 32.807 121.128 32.807C121.715 32.807 122.246 32.939 122.723 33.203C123.2 33.4597 123.574 33.8263 123.845 34.303C124.124 34.7797 124.263 35.3297 124.263 35.953C124.263 36.5763 124.12 37.1263 123.834 37.603C123.555 38.0797 123.174 38.45 122.69 38.714C122.213 38.9707 121.678 39.099 121.084 39.099ZM121.084 37.757C121.363 37.757 121.623 37.691 121.865 37.559C122.114 37.4197 122.312 37.2143 122.459 36.943C122.606 36.6717 122.679 36.3417 122.679 35.953C122.679 35.3737 122.525 34.93 122.217 34.622C121.916 34.3067 121.546 34.149 121.106 34.149C120.666 34.149 120.296 34.3067 119.995 34.622C119.702 34.93 119.555 35.3737 119.555 35.953C119.555 36.5323 119.698 36.9797 119.984 37.295C120.277 37.603 120.644 37.757 121.084 37.757ZM128.099 39.099C127.512 39.099 126.984 38.9707 126.515 38.714C126.045 38.45 125.675 38.0797 125.404 37.603C125.14 37.1263 125.008 36.5763 125.008 35.953C125.008 35.3297 125.143 34.7797 125.415 34.303C125.693 33.8263 126.071 33.4597 126.548 33.203C127.024 32.939 127.556 32.807 128.143 32.807C128.729 32.807 129.261 32.939 129.738 33.203C130.214 33.4597 130.588 33.8263 130.86 34.303C131.138 34.7797 131.278 35.3297 131.278 35.953C131.278 36.5763 131.135 37.1263 130.849 37.603C130.57 38.0797 130.189 38.45 129.705 38.714C129.228 38.9707 128.693 39.099 128.099 39.099ZM128.099 37.757C128.377 37.757 128.638 37.691 128.88 37.559C129.129 37.4197 129.327 37.2143 129.474 36.943C129.62 36.6717 129.694 36.3417 129.694 35.953C129.694 35.3737 129.54 34.93 129.232 34.622C128.931 34.3067 128.561 34.149 128.121 34.149C127.681 34.149 127.31 34.3067 127.01 34.622C126.716 34.93 126.57 35.3737 126.57 35.953C126.57 36.5323 126.713 36.9797 126.999 37.295C127.292 37.603 127.659 37.757 128.099 37.757ZM133.947 30.86V39H132.407V30.86H133.947ZM139.077 39L137.009 36.404V39H135.469V30.86H137.009V35.491L139.055 32.906H141.057L138.373 35.964L141.079 39H139.077ZM142.674 32.18C142.402 32.18 142.175 32.0957 141.992 31.927C141.816 31.751 141.728 31.5347 141.728 31.278C141.728 31.0213 141.816 30.8087 141.992 30.64C142.175 30.464 142.402 30.376 142.674 30.376C142.945 30.376 143.169 30.464 143.345 30.64C143.528 30.8087 143.62 31.0213 143.62 31.278C143.62 31.5347 143.528 31.751 143.345 31.927C143.169 32.0957 142.945 32.18 142.674 32.18ZM143.433 32.906V39H141.893V32.906H143.433ZM146.747 34.171V37.119C146.747 37.3243 146.795 37.4747 146.89 37.57C146.993 37.658 147.162 37.702 147.396 37.702H148.111V39H147.143C145.845 39 145.196 38.3693 145.196 37.108V34.171H144.47V32.906H145.196V31.399H146.747V32.906H148.111V34.171H146.747Z" fill="#24252C" />
+
+      <defs>
+        <linearGradient id="paint0_linear" x1="0" y1="15.8289" x2="18.4323" y2="15.8289" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4ADC" />
+          <stop offset="0.5" stop-color="#7000FF" />
+          <stop offset="1" stop-color="#E700B7" />
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="7.20312" y1="7.07791" x2="11.2294" y2="7.07791" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1B4ADC" />
+          <stop offset="0.5" stop-color="#7000FF" />
+          <stop offset="1" stop-color="#E700B7" />
+        </linearGradient>
+      </defs>
+    </svg>
+  </a>
+
+  <button id="main-v2-toggler" class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div id="v2-collapse-nav" class="collapse navbar-collapse v2-vertical-collapse">
+    <button class="close-navbar"><i class="fa fa-times fa-2x"></i></button>
+    <div class="dd-cat-link dropdown"><a class="nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/3d-models/" class="nav-link">3D Models</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/code-plugins/" class="nav-link">Code Plugins</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/css-snippets/" class="nav-link">CSS Snippets</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/design-freebies/" class="nav-link">Design Freebies</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/ebooks/" class="nav-link">E-Books</a>
+        </li>
+        <li class="nav-item dropdown-item"><a href="https://www.bypeople.com/free-fonts/" class="nav-link">Fonts</a>
+        </li>
+        <li class="nav-item dropdown-item"><a href="https://www.bypeople.com/icons/" class="nav-link">Free Icons</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/graphic-themes/" class="nav-link">Graphic Themes</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/graphic-ui-kits/" class="nav-link">Graphic UI Kits</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/css-html-kits/" class="nav-link">HTML Kits</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/html-themes/" class="nav-link">HTML Themes</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/software-web-apps/" class="nav-link">Software / Web Apps</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/wordpress-plugins/" class="nav-link">WP Plugins</a>
+        </li>
+        <li class="nav-item dropdown-item">
+          <a href="https://www.bypeople.com/free-wordpress-themes/" class="nav-link">WP Themes</a>
+        </li>
+      </div>
+    </div>
+
+    <ul class="nav navbar-nav" id="dropdown-menu">
+      <li class="nav-item mx-3" id="dropdown-items">
+        <div class="dropdown">
+          <button class="btn btn-outline dropdown-toggle dropdown-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Products
+          </button>
+          <div class="dropdown-menu dropdown-menu-deals" aria-labelledby="dropdownMenuButton">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium">All</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/3d-templates">3D Design</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/3d-models-templates">3D Models</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/addons">Add-ons</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/animation-templates">Animation</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/background-textures">Backgrounds & Textures</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/branding-packs-templates">Branding</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/characters-templates">Characters / Avatars</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-code-plugins">Code Plugins</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/code-snippets">Code Snippets</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/professional-courses">Courses</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/design-templates">Design Assets</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/professional-ebooks">E-Books</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/professional-fonts">Fonts</a>
+                </div>
+                <div class="col-4">
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-themes">Graphic Themes</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-ui-kits">Graphic UI Kits</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-html-kits">HTML Kits</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-html-themes">HTML Themes</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-icon-sets">Icons</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-illustrations">Illustrations</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/isolated-objects">Isolated Objects / Elements</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/stock-logo-templates">Logos</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/mockup-templates">Mockups</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/motion-graphic-templates">Motion Graphics</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-patterns">Patterns</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/photo-overlays">Photo Effects & Overlays</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/stock-footage">Photos & Videos</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/presentation-templates">Presentations & Infographics</a>
+                </div>
+                <div class="col-4">
+                  <a class="dropdown-item" href="https://www.bypeople.com/printing-templates">Print Templates</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/scene-builders">Scene Creators</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/abstract-shapes">Shapes</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/social-media-templates">Social Media</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/software-apps">Software / Web Apps</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/sound-effects-templates">Sound Effects</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/stickers-designs">Stickers</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/tshirt-designs">T-shirts</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/web-templates">Templates</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/web-apps">Web</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/wireframes-templates">Wireframes</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-wordpress-plugins">WP Plugins</a>
+                  <a class="dropdown-item" href="https://www.bypeople.com/premium-wordpress-themes">WP Themes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <ul id="menu-menu_v2" class="navbar-nav mx-auto mt-2 mt-md-0 borde-sep nav-main"><li  id="menu-item-298932" class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-298932"><a href="/illustrations/" class="nav-link">Illustrations</a></li>
+<li  id="menu-item-354831" class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-354831"><a href="https://www.bypeople.com/creative-toolkit/" class="nav-link">Get all our design bundles (lifetime)</a></li>
+<li  id="menu-item-347294" class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-347294"><a href="https://www.bypeople.com/faq" class="nav-link">faq</a></li>
+<li  id="menu-item-347293" class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-347293"><a href="https://www.bypeople.com/about" class="nav-link">about</a></li>
+</ul>
+    <ul class="nav navbar-nav search-nav-mobile" style="height:40px; align-items:center">
+      <!-- <li class="nav-item mx-3" id="facebook-community">
+        <a href="https://www.facebook.com/groups/premium.bypeople">
+          <i class="mdi mdi-facebook" style="font-size:20px"></i>
+        </a>
+      </li> -->
+      <li class="nav-item mx-2">
+        <form action="https://www.bypeople.com/" method="get" class="search-form-v2" autocomplete="off">
+          <input type="text" size="5" name="s" id="search" placeholder="Search" value="" class="form-control">
+          <button type="submit" class="btn btn-default submit-search"><i class="mdi mdi-magnify" aria-hidden="true" style="font-size: 24px"></i></button>
+        </form>
+      </li>
+    </ul>
+
+
+
+    <ul class="nav navbar-nav btn-login-cart-vip">
+
+      <li class="nav-item mx-2 dropdown-mobile-cart"></li>
+
+
+      <li class="nav-item mx-2">
+        <a href="/vip" id="become-vip-button" class="become-vip-button">
+          Become VIP
+
+        </a>
+      </li>
+
+      <li id="li-user-name" class="nav-item mx-2" style="height:40px; ">
+        <a id="user-data" class="disabled" href="#" style="font-size: 0px; font-family: Poppins, sans-serif;">
+          <button id="login-button" type="button" style="background: linear-gradient(116.49deg,#0036df,#7000ff 66.15%,#e700b7); color: white; border: none; border-radius: 10px; height: 40px; width: 90px; font-size: 14px; font-family: Poppins, sans-serif; font-weight: 600">
+            Login
+            <i id="user-icon" class="mdi mdi-loading mdi-spin" style="font-size: 15px"></i>
+          </button>
+          <span id="user-name" style="height: 38px; display: inline-flex; align-items: center; line-height:16px; max-width: 80px"></span>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav" id="mobile-deals-menu">
+      <span class="dropdown-link">Products</span>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium">All</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/3d-templates">3D Design</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/3d-models-templates">3D Models</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/addons">Add-ons</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/animation-templates">Animation</a></li>
+      <!-- <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/blog">Articles</a></li> -->
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/background-textures">Backgrounds & Textures</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/branding-packs-templates">Branding</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/characters-templates">Characters / Avatars</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-code-plugins">Code Plugins</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/code-snippets">Code Snippets</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/professional-courses">Courses</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/design-templates">Design Assets</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/professional-ebooks">E-Books</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/professional-fonts">Fonts</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-themes">Graphic Themes</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-ui-kits">Graphic UI Kits</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-html-kits">HTML Kits</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-html-themes">HTML Themes</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-icon-sets">Icons</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-illustrations">Illustrations</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/isolated-objects">Isolated Objects / Elements</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/stock-logo-templates">Logos</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/mockup-templates">Mockups</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/motion-graphic-templates">Motion Graphics</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-patterns">Patterns</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/photo-overlays">Photo Effects & Overlays</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/stock-footage">Photos & Videos</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/presentation-templates">Presentations & Infographics</a>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/printing-templates">Print Templates</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/scene-builders">Scene Creators</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/abstract-shapes">Shapes</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/social-media-templates">Social Media</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/software-apps">Software / Web Apps</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/sound-effects-templates">Sound Effects</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/stickers-designs">Stickers</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/tshirt-designs">T-shirts</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/web-templates">Templates</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/web-apps">Web</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/wireframes-templates">Wireframes</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-wordpress-plugins">WP Plugins</a></li>
+      <li class="nav-item dropdown-link mx-0"><a class="dropdown-item" href="https://www.bypeople.com/premium-wordpress-themes">WP Themes</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<script>
+  const addToCartOpen = () => {
+
+    const priceButton = document.querySelector('.price-button');
+
+    priceButton.addEventListener('click', () => {
+      if (screen.width < 993) window.open('/cart', "_blank");
+    });
+
+  }
+
+  window.addEventListener('load', () => {
+    const menuPrincipal = document.querySelector('#main-v2-toggler');
+    menuPrincipal.addEventListener('click', () => {
+      if (screen.width < 993) {
+        addToCartOpen();
+        if (document.querySelector('.list-product-cart')) document.querySelector('.list-product-cart').style.display = 'none';
+
+      }
+    });
+  });
+</script></div>
+<div class="core_page_v2">
+	<div id="bppl-v2-content">
+		<div class="row row_single_post">
+			<div id="deals_col" class="deals-col col-md-6 col-lg-5 col-xl-4">
+				<aside id="deals_sidebar" class="deals_sidebar deals-container">
+					<div class="deals-col">
+						<h3 class="home-subtitle" id="premium-title">Premium Packs</h3>
+					</div>
+					<div class="deals_main_content">
+				<div class="deal_content_ind">
+				<a href="https://www.bypeople.com/10000-vfx-assets-bundle-for-filmmakers-slideshows-explosions-luts-transitions-animated-titles-more/">
+					<div class="img-deal">
+												<img src="https://www.bypeople.com/wp-content/uploads/2025/02/New-Main-Image-3x2-1-460x230.jpg" width="460" height="230" loading="lazy">
+						<!-- <div class="price-buttons">
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-vip-button">
+									<li>
+										$<span class="span-button">vip</span>
+									</li>
+								</div>
+							</a>
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-deal-button">
+									<li>
+										$ <span class="span-button">discount</span> <br><span class="span-button">see more</span> 									</li>
+								</div>
+							</a>
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-deal-button">
+									<li>
+										$ <span class="span-button">original</span>
+									</li>
+								</div>
+							</a>
+													</div> -->
+					</div>
+				</a>
+				<div class="deal-main-content">
+					<a href="https://www.bypeople.com/10000-vfx-assets-bundle-for-filmmakers-slideshows-explosions-luts-transitions-animated-titles-more/">
+						<h3 class="deal_title">10,000 VFX Assets Bundle for Filmmakers ? Slideshows, Explosions, LUTs, Transitions, Animated Titles &amp; More</h3>
+						<button type="button" class="buy-now-button" style="background: linear-gradient(116.49deg,#0036df,#7000ff 66.15%,#e700b7); color: white; border: none; border-radius: 10px; height: 47px; width: 180px; font-size: 16px; font-weight: 600; margin: 15px auto; font-family: Poppins, sans-serif; cursor: pointer">
+							Buy now $29.25						</button>
+						<p style="display: block; color: gray; text-align: center; margin-bottom: 0">Original price $<del>1000</del></p>
+					</a>
+				</div>
+			</div>
+				<div class="deal_content_ind">
+				<a href="https://www.bypeople.com/150-animated-badges-and-instagram-stories-templates-featuring-tender-modern-vintage-urban-brand-summer-and-travels-styles/">
+					<div class="img-deal">
+												<img src="https://www.bypeople.com/wp-content/uploads/2025/01/Preview-All-Comps_00218-460x230.jpg" width="460" height="230" loading="lazy">
+						<!-- <div class="price-buttons">
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-vip-button">
+									<li>
+										$<span class="span-button">vip</span>
+									</li>
+								</div>
+							</a>
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-deal-button">
+									<li>
+										$ <span class="span-button">discount</span> <br><span class="span-button">see more</span> 									</li>
+								</div>
+							</a>
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-deal-button">
+									<li>
+										$ <span class="span-button">original</span>
+									</li>
+								</div>
+							</a>
+													</div> -->
+					</div>
+				</a>
+				<div class="deal-main-content">
+					<a href="https://www.bypeople.com/150-animated-badges-and-instagram-stories-templates-featuring-tender-modern-vintage-urban-brand-summer-and-travels-styles/">
+						<h3 class="deal_title">150+ Animated Badges and Instagram Stories Templates Featuring Tender, Modern, Vintage, Urban, Brand, Summer, And Travels Styles</h3>
+						<button type="button" class="buy-now-button" style="background: linear-gradient(116.49deg,#0036df,#7000ff 66.15%,#e700b7); color: white; border: none; border-radius: 10px; height: 47px; width: 180px; font-size: 16px; font-weight: 600; margin: 15px auto; font-family: Poppins, sans-serif; cursor: pointer">
+							Buy now $18.00						</button>
+						<p style="display: block; color: gray; text-align: center; margin-bottom: 0">Original price $<del>349</del></p>
+					</a>
+				</div>
+			</div>
+				<div class="deal_content_ind">
+				<a href="https://www.bypeople.com/230-camping-and-summer-logo-badges-templates-scenes-creation-kit-with-500-graphic-elements/">
+					<div class="img-deal">
+												<img src="https://www.bypeople.com/wp-content/uploads/2025/02/A2-Preview-of-The-Great-Outdoors-Badges-featuring-all-45-camping-adventure-designs-460x230.jpg" width="460" height="230" loading="lazy">
+						<!-- <div class="price-buttons">
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-vip-button">
+									<li>
+										$<span class="span-button">vip</span>
+									</li>
+								</div>
+							</a>
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-deal-button">
+									<li>
+										$ <span class="span-button">discount</span> <br><span class="span-button">see more</span> 									</li>
+								</div>
+							</a>
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-deal-button">
+									<li>
+										$ <span class="span-button">original</span>
+									</li>
+								</div>
+							</a>
+													</div> -->
+					</div>
+				</a>
+				<div class="deal-main-content">
+					<a href="https://www.bypeople.com/230-camping-and-summer-logo-badges-templates-scenes-creation-kit-with-500-graphic-elements/">
+						<h3 class="deal_title">230+ Camping and Summer Logo Badges Templates - Scenes Creation Kit with 500+ Graphic Elements</h3>
+						<button type="button" class="buy-now-button" style="background: linear-gradient(116.49deg,#0036df,#7000ff 66.15%,#e700b7); color: white; border: none; border-radius: 10px; height: 47px; width: 180px; font-size: 16px; font-weight: 600; margin: 15px auto; font-family: Poppins, sans-serif; cursor: pointer">
+							Buy now $14.25						</button>
+						<p style="display: block; color: gray; text-align: center; margin-bottom: 0">Original price $<del>299</del></p>
+					</a>
+				</div>
+			</div>
+				<div class="deal_content_ind">
+				<a href="https://www.bypeople.com/120-animated-typography-templates-for-slides-ads-news-creation-headlines-quotes-logotype-brand-more/">
+					<div class="img-deal">
+												<img src="https://www.bypeople.com/wp-content/uploads/2025/01/PreviewIMG-5-460x230.jpg" width="460" height="230" loading="lazy">
+						<!-- <div class="price-buttons">
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-vip-button">
+									<li>
+										$<span class="span-button">vip</span>
+									</li>
+								</div>
+							</a>
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-deal-button">
+									<li>
+										$ <span class="span-button">discount</span> <br><span class="span-button">see more</span> 									</li>
+								</div>
+							</a>
+														<a href="" target="_blank">
+								<div class="deals-get-now-button-v2 grid-deal-button">
+									<li>
+										$ <span class="span-button">original</span>
+									</li>
+								</div>
+							</a>
+													</div> -->
+					</div>
+				</a>
+				<div class="deal-main-content">
+					<a href="https://www.bypeople.com/120-animated-typography-templates-for-slides-ads-news-creation-headlines-quotes-logotype-brand-more/">
+						<h3 class="deal_title">120+ Animated Typography Templates for Slides, Ads, News Creation, Headlines, Quotes, Logotype Brand &amp; More</h3>
+						<button type="button" class="buy-now-button" style="background: linear-gradient(116.49deg,#0036df,#7000ff 66.15%,#e700b7); color: white; border: none; border-radius: 10px; height: 47px; width: 180px; font-size: 16px; font-weight: 600; margin: 15px auto; font-family: Poppins, sans-serif; cursor: pointer">
+							Buy now $18.00						</button>
+						<p style="display: block; color: gray; text-align: center; margin-bottom: 0">Original price $<del>349</del></p>
+					</a>
+				</div>
+			</div>
+	</div>
+
+<div id="load-more-deals" style="text-align: center">
+	<button id="load_more_deals_button" class="btn btn-shock">Load More</button>
+</div>				</aside>
+			</div>
+			<div class="main_wrapper_v2 single_wrapper col-12 col-md-6 col-lg-7 col-xl-8">
+				<main style="margin-top: 5px;" class="main_page_v2 main_single_v2">
+					<div class="main_single_post">
+
+
+						 <div class="single_post_image">
+									<img class="img-fluid center-block" src="https://www.bypeople.com/wp-content/uploads/2014/05/beautifuldropdownlist.jpg">
+								</div>
+						
+						<div class="single_social_buttons">
+							<div class="social-buttons" data-post="12286">
+								<button class="social-button interact-button-main" data-social="like" data-toggle="tooltip" data-placement="bottom" data-original-title="Like">
+									<i class="fa fa-heart"></i>
+								</button>
+																									<a target="_blank" href="http://dribbble.com/shots/994613-Beautiful-Drop-Down-List?list=tags?utm_source=bypeople"><button class="social-button" data-toggle="tooltip" data-placement="bottom" data-original-title="Source">
+											<i class="fas fa-external-link-alt"></i>
+										</button></a>
+																							</div>
+						</div>
+						<h3 id="12286" class="post-page-main-title home-subtitle post-v2-main-title col-flex-end" style="margin-top: 5px;">Beautiful Dropdown List</h3>
+						<div class="single_post_main_content">
+							<p>A dropdown menu including subtle styling effects, achieving a classy appearance. The main element comes with a soft shadow and opens the dropdown. Then, another box appears, showing all the available selections, hover over any of them to see a light blue highlight on the screen.</p>
+						</div>
+						
+						<div class="single_social_buttons" style="margin-top: 40px; text-align: center">
+							<div class="social-buttons secondary" data-post="12286" style="bottom:unset;right:unset;position:relative">
+															</div>
+						</div>
+
+						<div class="comment_area_v2">
+													</div>
+					</div>
+				</main>
+								<hr>
+				<!-- <div class="secondary_content_single">
+					<h3 class="home-subtitle post-v2-main-title col-flex-end">Featured Deals</h3>
+					<div class="related_posts_area">
+						<div id="featured_deals" class="flex_items_v2">
+													</div>
+					</div>
+				</div> -->
+														<hr>
+					<div class="secondary_content_single">
+						<h3 class="home-subtitle post-v2-main-title col-flex-end">Related Deals</h3>
+						<div class="related_posts_area">
+							<div class="flex_items_v2">
+								<div class="grid__item post_container post-div cat-1493 cat-853" data-post="365521">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/10000-vfx-assets-bundle-for-filmmakers-slideshows-explosions-luts-transitions-animated-titles-more/">
+				<h1 class="item_title">10,000 VFX Assets Bundle for Filmmakers – Slideshows, Explosions, LUTs, Transitions, Animated Titles &amp; More					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/animation/" alt="View all posts in Animation">Animation</a><a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a> 
+				</div>
+				<a href="https://www.bypeople.com/10000-vfx-assets-bundle-for-filmmakers-slideshows-explosions-luts-transitions-animated-titles-more/">
+					<img src="https://www.bypeople.com/wp-content/uploads/2025/02/New-Main-Image-3x2-1-460x230.jpg" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="365521">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">
+No matter what you're working on—whether it's a commercial or an action-packed scene—this massive bundle is perfect for video editors and motion d... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=365521'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">
+No matter what you're working on—whether it's a commercial or an action-packed scene—this massive bundle is perfect for video editors and motion designers. It will help take your productions to the next level with professional effects that will capture your audience’s attention.
+
+
+
+The Filmmaker VFX Bundle provides you with over 10,000 high-quality assets at a discounted price. No matter what your creative needs are, this bundle has you covered. Let your imagination run wild with thousands of assets to experiment with and create stunning visuals—all with a commercial use license.
+
+
+
+Inside this bundle, you'll find: slideshows, explosion effects, backgrounds, worlds, realistic rain, titles, transitions, overlays, HUD elements, LUTs, animations, fonts, Instagram stories templates, VFX portals, VHS effects, and more.
+
+
+
+These assets are compatible with nearly all major video editing software, including Adobe Premiere Pro, Adobe After Effects, Final Cut Pro, DaVinci Resolve, HitFilm Pro, Vegas Pro, and more.
+
+
+
+This collection is valued at over $1,000, but for a limited time, you can get it for just $39.
+
+
+
+You Will Receive:
+
+
+
+
+10,000 VFX Assets
+
+
+
+Slideshows, explosions, backgrounds, worlds, realistic rain, titles, transitions, overlays, HUD elements, LUTs, animations, fonts, Instagram stories, VFX portals, VHS effects, and more.
+
+
+
+Compatible with: Adobe Premiere Pro, Adobe After Effects, Final Cut Pro, DaVinci Resolve, HitFilm Pro, Vegas Pro, and other video editing software.
+
+
+
+Commercial License Included
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Woman enjoying a simulation from vr headset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=365521'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="365521">
+					<h1>10,000 VFX Assets Bundle for Filmmakers – Slideshows, Explosions, LUTs, Transitions, Animated Titles &amp; More</h1>
+					<p class="post_main_content_p">
+No matter what you're working on—whether it's a commercial or an action-packed scene—this massive bundle is perfect for video editors and motion designers. It will help take your productions to the next level with professional effects that will capture your audience’s attention.
+
+
+
+The Filmmaker VFX Bundle provides you with over 10,000 high-quality assets at a discounted price. No matter what your creative needs are, this bundle has you covered. Let your imagination run wild with thousands of assets to experiment with and create stunning visuals—all with a commercial use license.
+
+
+
+Inside this bundle, you'll find: slideshows, explosion effects, backgrounds, worlds, realistic rain, titles, transitions, overlays, HUD elements, LUTs, animations, fonts, Instagram stories templates, VFX portals, VHS effects, and more.
+
+
+
+These assets are compatible with nearly all major video editing software, including Adobe Premiere Pro, Adobe After Effects, Final Cut Pro, DaVinci Resolve, HitFilm Pro, Vegas Pro, and more.
+
+
+
+This collection is valued at over $1,000, but for a limited time, you can get it for just $39.
+
+
+
+You Will Receive:
+
+
+
+
+10,000 VFX Assets
+
+
+
+Slideshows, explosions, backgrounds, worlds, realistic rain, titles, transitions, overlays, HUD elements, LUTs, animations, fonts, Instagram stories, VFX portals, VHS effects, and more.
+
+
+
+Compatible with: Adobe Premiere Pro, Adobe After Effects, Final Cut Pro, DaVinci Resolve, HitFilm Pro, Vegas Pro, and other video editing software.
+
+
+
+Commercial License Included
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Woman enjoying a simulation from vr headset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																														</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-853 cat-1496 cat-1500" data-post="365463">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/230-camping-and-summer-logo-badges-templates-scenes-creation-kit-with-500-graphic-elements/">
+				<h1 class="item_title">230+ Camping and Summer Logo Badges Templates - Scenes Creation Kit with 500+ Graphic Elements					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a><a class="ribbon-categories-list" href="https://www.bypeople.com/logos" alt="View all posts in Logos">Logos</a><a class="ribbon-categories-list" href="https://www.bypeople.com/scene-creators" alt="View all posts in Scene Creators">Scene Creators</a> 
+				</div>
+				<a href="https://www.bypeople.com/230-camping-and-summer-logo-badges-templates-scenes-creation-kit-with-500-graphic-elements/">
+					<img src="https://www.bypeople.com/wp-content/uploads/2025/02/A2-Preview-of-The-Great-Outdoors-Badges-featuring-all-45-camping-adventure-designs-460x230.jpg" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="365463">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">
+A mega bundle featuring 232 camping and summer-themed logo and badge templates. It also includes a Scene Creation Kit with 590 elements, allowing ... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=365463'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">
+A mega bundle featuring 232 camping and summer-themed logo and badge templates. It also includes a Scene Creation Kit with 590 elements, allowing you to create new logos, illustrations, t-shirt designs, promo materials, and so on.
+
+
+
+You'll find vintage hand-drawn designs inspired by traveling, the outdoors, mountain adventures, hiking emblems, and beyond. Perfect for t-shirts, mugs, patches, prints, websites, and social media.
+
+
+
+The Scene Creator features 590 simple camp graphic elements, including trees, mountains, valleys, rivers, tents, RV trailers, boats, summer-themed elements, badge shapes, and much more.
+
+
+
+Delivered in 8 different formats: SVG, DXF, PDF, AI, EPS10, PNG, PSD, JPG. All files are well-organized and vector-based, allowing you to scale them to any size without losing quality.
+
+
+
+You'll receive a commercial license, allowing you to use these assets worldwide for physical or digital products, whether for personal projects or client work.
+
+
+
+Thanks to this special promo, you won’t have to pay $299 for this collection. Instead, you can get the entire bundle for just $19.
+
+
+
+You Will Receive
+
+
+
+
+230+ camping and summer logo badges templates
+
+
+
+Scenes creation kit with 500+ graphic elements
+
+
+
+Authentic distressed style – great for t-shirts, mugs, patches, and other prints
+
+
+
+8 formats included: SVG, DXF, PDF, AI, EPS10, PNG, PSD, JPG
+
+
+
+Well-organized files
+
+
+
+100% vector – scale to any size without quality loss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=365463'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="365463">
+					<h1>230+ Camping and Summer Logo Badges Templates - Scenes Creation Kit with 500+ Graphic Elements</h1>
+					<p class="post_main_content_p">
+A mega bundle featuring 232 camping and summer-themed logo and badge templates. It also includes a Scene Creation Kit with 590 elements, allowing you to create new logos, illustrations, t-shirt designs, promo materials, and so on.
+
+
+
+You'll find vintage hand-drawn designs inspired by traveling, the outdoors, mountain adventures, hiking emblems, and beyond. Perfect for t-shirts, mugs, patches, prints, websites, and social media.
+
+
+
+The Scene Creator features 590 simple camp graphic elements, including trees, mountains, valleys, rivers, tents, RV trailers, boats, summer-themed elements, badge shapes, and much more.
+
+
+
+Delivered in 8 different formats: SVG, DXF, PDF, AI, EPS10, PNG, PSD, JPG. All files are well-organized and vector-based, allowing you to scale them to any size without losing quality.
+
+
+
+You'll receive a commercial license, allowing you to use these assets worldwide for physical or digital products, whether for personal projects or client work.
+
+
+
+Thanks to this special promo, you won’t have to pay $299 for this collection. Instead, you can get the entire bundle for just $19.
+
+
+
+You Will Receive
+
+
+
+
+230+ camping and summer logo badges templates
+
+
+
+Scenes creation kit with 500+ graphic elements
+
+
+
+Authentic distressed style – great for t-shirts, mugs, patches, and other prints
+
+
+
+8 formats included: SVG, DXF, PDF, AI, EPS10, PNG, PSD, JPG
+
+
+
+Well-organized files
+
+
+
+100% vector – scale to any size without quality loss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																														</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-1379 cat-853" data-post="365011">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/massive-font-bundle-including-serif-sans-serif-and-display-typefaces-in-vintage-modern-and-signature-styles/">
+				<h1 class="item_title">Massive Font Bundle Including: Serif, Sans Serif, and Display Typefaces in Vintage, Modern, and Signature Styles					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/deals/" alt="View all posts in Deals">Deals</a><a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a> 
+				</div>
+				<a href="https://www.bypeople.com/massive-font-bundle-including-serif-sans-serif-and-display-typefaces-in-vintage-modern-and-signature-styles/">
+					<img src="https://www.bypeople.com/wp-content/uploads/2024/10/Cover-Bundle-460x230.jpg" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="365011">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">
+A comprehensive collection featuring a diverse selection of fonts, from vintage to modern and signature styles, including Serif, Sans Serif, and D... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=365011'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">
+A comprehensive collection featuring a diverse selection of fonts, from vintage to modern and signature styles, including Serif, Sans Serif, and Display options. The bundle includes fonts with different stylistic variations such as regular, clean, rough, textured, bold, and outline. Some also come with additional elements like texture overlays, Photoshop Actions, logo templates, badges, and ornaments.
+
+
+
+You’ll also find duo fonts for combining in your projects, as well as advanced design features like various glyphs, layered options, alternates, ligatures, and end strokes. If you’re looking for a more specific visual style, there are also monoline and extruded fonts.
+
+
+
+The fonts are delivered in OpenType (OTF) and TrueType (TTF) formats and include multilingual support, making this bundle a highly versatile toolbox for use in various projects such as branding, advertising, editorial design, merchandising, packaging, web design, and many more.
+
+
+
+Regularly, this collection would cost $430 if purchased individually, but today you can get it for just $49.
+
+
+
+You Will Receive: 
+
+
+
+
+50 different fonts
+
+
+
+Serif, Sans Serif, and Display typefaces
+
+
+
+Vintage, modern, and signature styles&nbsp;
+
+
+
+Texture overlays, Photoshop Actions and illustrations included
+
+
+
+Delivered in OTF and TTF formats
+
+
+
+Multilingual support
+
+
+
+Commercial use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=365011'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="365011">
+					<h1>Massive Font Bundle Including: Serif, Sans Serif, and Display Typefaces in Vintage, Modern, and Signature Styles</h1>
+					<p class="post_main_content_p">
+A comprehensive collection featuring a diverse selection of fonts, from vintage to modern and signature styles, including Serif, Sans Serif, and Display options. The bundle includes fonts with different stylistic variations such as regular, clean, rough, textured, bold, and outline. Some also come with additional elements like texture overlays, Photoshop Actions, logo templates, badges, and ornaments.
+
+
+
+You’ll also find duo fonts for combining in your projects, as well as advanced design features like various glyphs, layered options, alternates, ligatures, and end strokes. If you’re looking for a more specific visual style, there are also monoline and extruded fonts.
+
+
+
+The fonts are delivered in OpenType (OTF) and TrueType (TTF) formats and include multilingual support, making this bundle a highly versatile toolbox for use in various projects such as branding, advertising, editorial design, merchandising, packaging, web design, and many more.
+
+
+
+Regularly, this collection would cost $430 if purchased individually, but today you can get it for just $49.
+
+
+
+You Will Receive: 
+
+
+
+
+50 different fonts
+
+
+
+Serif, Sans Serif, and Display typefaces
+
+
+
+Vintage, modern, and signature styles&nbsp;
+
+
+
+Texture overlays, Photoshop Actions and illustrations included
+
+
+
+Delivered in OTF and TTF formats
+
+
+
+Multilingual support
+
+
+
+Commercial use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																														</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-1379 cat-853" data-post="364957">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/halloween-font-display-blackletter/">
+				<h1 class="item_title">Halloween Font - Display Blackletter					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/deals/" alt="View all posts in Deals">Deals</a><a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a> 
+				</div>
+				<a href="https://www.bypeople.com/halloween-font-display-blackletter/">
+					<img src="https://www.bypeople.com/wp-content/uploads/2024/10/1-1-460x230.jpg" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="364957">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">
+A display typeface perfect for lovers of dark and medieval styles, who want to give their designs a powerful and mysterious visual impact. It is a... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=364957'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">
+A display typeface perfect for lovers of dark and medieval styles, who want to give their designs a powerful and mysterious visual impact. It is also ideal for the spooky season. This font was inspired by the Fraktur manuscript and a bloody touch, and was carefully crafted by hand, with every letter carved to evoke darkness through a gothic style. It provides a sharp and profound effect, as if born from blood and history.The typeface is delivered in OpenType (OTF) and TrueType (TTF) formats and supports multilingual characters, making it very versatile for various international projects like rock or metal album covers, band merchandise, or tattoo shop logos. This font is also very suitable for creating posters, tattoos, labels, and packaging with a Halloween theme or projects seeking to reflect bold visual aesthetics.Regularly, this font would cost $99, but today you can get it for $18.
+
+
+
+You Will Receive:
+
+
+
+
+Halloween Font - Display Blackletter
+
+
+
+Delivered in OTF and TTF format&nbsp;
+
+
+
+Multilingual characters
+
+
+
+Perfect for projects like rock or metal album covers, band merchandise, or tattoo shop logos
+
+
+
+Commercial use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=364957'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="364957">
+					<h1>Halloween Font - Display Blackletter</h1>
+					<p class="post_main_content_p">
+A display typeface perfect for lovers of dark and medieval styles, who want to give their designs a powerful and mysterious visual impact. It is also ideal for the spooky season. This font was inspired by the Fraktur manuscript and a bloody touch, and was carefully crafted by hand, with every letter carved to evoke darkness through a gothic style. It provides a sharp and profound effect, as if born from blood and history.The typeface is delivered in OpenType (OTF) and TrueType (TTF) formats and supports multilingual characters, making it very versatile for various international projects like rock or metal album covers, band merchandise, or tattoo shop logos. This font is also very suitable for creating posters, tattoos, labels, and packaging with a Halloween theme or projects seeking to reflect bold visual aesthetics.Regularly, this font would cost $99, but today you can get it for $18.
+
+
+
+You Will Receive:
+
+
+
+
+Halloween Font - Display Blackletter
+
+
+
+Delivered in OTF and TTF format&nbsp;
+
+
+
+Multilingual characters
+
+
+
+Perfect for projects like rock or metal album covers, band merchandise, or tattoo shop logos
+
+
+
+Commercial use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																														</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-1379 cat-853 cat-1501" data-post="364930">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/600-lightroom-preset-bundle-in-60-collections-including-classic-travel-film-aesthetic-and-warm-styles/">
+				<h1 class="item_title">600+ Lightroom Preset Bundle in 60 Collections Including: Classic, Travel, Film Aesthetic, and Warm Styles					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/deals/" alt="View all posts in Deals">Deals</a><a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a><a class="ribbon-categories-list" href="https://www.bypeople.com/photo-effects-overlays" alt="View all posts in Photo Effects &amp; Overlays">Photo Effects &amp; Overlays</a> 
+				</div>
+				<a href="https://www.bypeople.com/600-lightroom-preset-bundle-in-60-collections-including-classic-travel-film-aesthetic-and-warm-styles/">
+					<img src="https://www.bypeople.com/wp-content/uploads/2024/09/1-460x230.jpg" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="364930">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">
+Transform your photos with this ultimate Lightroom preset bundle! This is your ticket to effortlessly enhancing your photography game. Whether you... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=364930'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">
+Transform your photos with this ultimate Lightroom preset bundle! This is your ticket to effortlessly enhancing your photography game. Whether you're a professional photographer or an enthusiastic hobbyist, these 600+ presets will revolutionize the way you edit your photos.
+
+
+
+Each preset has been crafted to bring out the best in your photos. Mobile and desktop versions included and our detailed step by step instructions make using the presets a breeze. Transform your photos with just one click using our Lightroom preset collection. With different preset styles you will always find a preset that fits perfectly to your image.
+
+
+
+In this exclusive package, you'll find a diverse collection of carefully crafted presets that cover a variety of styles and moods. With just one click, you'll achieve stunning and consistent results that will save you hours of editing time and ensure your photos stand out from the crowd.
+
+
+
+From cool vintage styles to clean modern aesthetics, we offer a wide variety of categories, including Bright Airy, Film Look, Warm, Summer, Fuji Film, Natural Tone, Portra Film, Earth Tones, Daylight, 35mm Film, Boho Style, Wedding Style, Analog Film, Disposable Film, Polaroid, Aesthetic Look, Luxury Clean, Creamy Tones, Kodak Look, Digital Film, Retro, Minimalist, Sunset, Black and White, Travel, Monochrome, and more.
+
+
+
+You Will Receive:
+
+
+
+
+600+ Lightroom mobile &amp; desktop presets
+
+
+
+60 different collections each with 10 styles
+
+
+
+Compatible with free Lightroom mobile app (iPhone &amp; Android)&nbsp;
+
+
+
+Compatible with Lightroom Desktop both Mac &amp; PC&nbsp;
+
+
+
+.dng and .xmp files&nbsp;
+
+
+
+Compatible with JPEG, PNG, &amp; RAW image files
+
+
+
+A step by step installation guide
+
+
+
+One-time purchase, unlimited lifetime access
+
+
+
+Commercial use
+
+
+
+
+If you were to buy these files separately, it would cost you over $900, but today you can get them at a huge discount for just $29!
+
+
+
+Please keep in mind all presets work differently on every image becaus... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=364930'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="364930">
+					<h1>600+ Lightroom Preset Bundle in 60 Collections Including: Classic, Travel, Film Aesthetic, and Warm Styles</h1>
+					<p class="post_main_content_p">
+Transform your photos with this ultimate Lightroom preset bundle! This is your ticket to effortlessly enhancing your photography game. Whether you're a professional photographer or an enthusiastic hobbyist, these 600+ presets will revolutionize the way you edit your photos.
+
+
+
+Each preset has been crafted to bring out the best in your photos. Mobile and desktop versions included and our detailed step by step instructions make using the presets a breeze. Transform your photos with just one click using our Lightroom preset collection. With different preset styles you will always find a preset that fits perfectly to your image.
+
+
+
+In this exclusive package, you'll find a diverse collection of carefully crafted presets that cover a variety of styles and moods. With just one click, you'll achieve stunning and consistent results that will save you hours of editing time and ensure your photos stand out from the crowd.
+
+
+
+From cool vintage styles to clean modern aesthetics, we offer a wide variety of categories, including Bright Airy, Film Look, Warm, Summer, Fuji Film, Natural Tone, Portra Film, Earth Tones, Daylight, 35mm Film, Boho Style, Wedding Style, Analog Film, Disposable Film, Polaroid, Aesthetic Look, Luxury Clean, Creamy Tones, Kodak Look, Digital Film, Retro, Minimalist, Sunset, Black and White, Travel, Monochrome, and more.
+
+
+
+You Will Receive:
+
+
+
+
+600+ Lightroom mobile &amp; desktop presets
+
+
+
+60 different collections each with 10 styles
+
+
+
+Compatible with free Lightroom mobile app (iPhone &amp; Android)&nbsp;
+
+
+
+Compatible with Lightroom Desktop both Mac &amp; PC&nbsp;
+
+
+
+.dng and .xmp files&nbsp;
+
+
+
+Compatible with JPEG, PNG, &amp; RAW image files
+
+
+
+A step by step installation guide
+
+
+
+One-time purchase, unlimited lifetime access
+
+
+
+Commercial use
+
+
+
+
+If you were to buy these files separately, it would cost you over $900, but today you can get them at a huge discount for just $29!
+
+
+
+Please keep in mind all presets work differently on every image because every photo is different. You may need slight adjustments, like changing the exposure to get your perfect shot.NOTE: To open and use these presets you need a free Lightroom Mobile App (iPhone &amp; Android) or a Lightroom Desktop Subscription for Mac or Windows.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																														</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-1379 cat-853" data-post="364891">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/20-fonts-bundle-including-graffiti-fonts-christmas-horror-and-zombies-modern-galactic-and-more/">
+				<h1 class="item_title">20 Fonts Bundle, Including: Graffiti Fonts, Christmas, Horror and Zombies, Modern, Galactic and More					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/deals/" alt="View all posts in Deals">Deals</a><a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a> 
+				</div>
+				<a href="https://www.bypeople.com/20-fonts-bundle-including-graffiti-fonts-christmas-horror-and-zombies-modern-galactic-and-more/">
+					<img src="https://www.bypeople.com/wp-content/uploads/2024/09/Graffiti-Bundle-20-Fonts-1200x800-2-460x230.png" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="364891">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">
+A font bundle featuring 20 different typefaces perfect for various needs. Incorporating 6 fonts inspired by street wall graffiti, to give your des... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=364891'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">
+A font bundle featuring 20 different typefaces perfect for various needs. Incorporating 6 fonts inspired by street wall graffiti, to give your designs an urban, rebellious, and artistic personality.
+
+
+
+You’ll get a variety of fonts for multiple purposes, including styles such as christmas, gothic, horror and zombies, modern, galactic, elegant, Indonesian culture, and brush scripts.
+
+
+
+These fonts are perfect for digital uses like logos, digital art, game interfaces, websites, banners, social media, album covers, video thumbnails, and branding. They are also ideal for printed materials such as merchandise, packaging, murals, posters, business signage, interior decoration, event invitations, notebooks, and school supplies.
+
+
+
+The fonts are delivered in OpenType format (OTF), and to access the glyph variations, you can edit them in programs such as Adobe Illustrator (Ai), Adobe Photoshop (Ps), Adobe InDesign (Id), or CorelDraw (CDR).
+
+
+
+Normally, this bundle would cost more than $200, but today you can get it for just $24 and start giving your designs a unique touch with the variety of fonts included.
+
+
+
+You Will Receive:
+
+
+
+
+20 different fonts in total
+
+
+
+6 street wall graffiti fonts included
+
+
+
+2 christmas-themed fonts, 2 blackletter, 3 horror-style, 2 elegant block, 1 inspired by Indonesian culture, 1 display, and 3 brush fonts
+
+
+
+Delivered in OTF format
+
+
+
+Commercial use license
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=364891'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="364891">
+					<h1>20 Fonts Bundle, Including: Graffiti Fonts, Christmas, Horror and Zombies, Modern, Galactic and More</h1>
+					<p class="post_main_content_p">
+A font bundle featuring 20 different typefaces perfect for various needs. Incorporating 6 fonts inspired by street wall graffiti, to give your designs an urban, rebellious, and artistic personality.
+
+
+
+You’ll get a variety of fonts for multiple purposes, including styles such as christmas, gothic, horror and zombies, modern, galactic, elegant, Indonesian culture, and brush scripts.
+
+
+
+These fonts are perfect for digital uses like logos, digital art, game interfaces, websites, banners, social media, album covers, video thumbnails, and branding. They are also ideal for printed materials such as merchandise, packaging, murals, posters, business signage, interior decoration, event invitations, notebooks, and school supplies.
+
+
+
+The fonts are delivered in OpenType format (OTF), and to access the glyph variations, you can edit them in programs such as Adobe Illustrator (Ai), Adobe Photoshop (Ps), Adobe InDesign (Id), or CorelDraw (CDR).
+
+
+
+Normally, this bundle would cost more than $200, but today you can get it for just $24 and start giving your designs a unique touch with the variety of fonts included.
+
+
+
+You Will Receive:
+
+
+
+
+20 different fonts in total
+
+
+
+6 street wall graffiti fonts included
+
+
+
+2 christmas-themed fonts, 2 blackletter, 3 horror-style, 2 elegant block, 1 inspired by Indonesian culture, 1 display, and 3 brush fonts
+
+
+
+Delivered in OTF format
+
+
+
+Commercial use license
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																														</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+							</div>
+						</div>
+					</div>
+				
+														<hr>
+					<div class="secondary_content_single">
+						<h3 class="home-subtitle post-v2-main-title col-flex-end">Related Posts</h3>
+						<div class="related_posts_area">
+							<div class="flex_items_v2">
+								<div class="grid__item post_container post-div cat-853 cat-1374" data-post="353706">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/ransom-note-vector-font/">
+				<h1 class="item_title">Ransom Note Vector Font - OTF, PNG & SVG Files					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a><a class="ribbon-categories-list" href="https://www.bypeople.com/free-fonts/" alt="View all posts in Free Fonts">Free Fonts</a> 
+				</div>
+				<a href="https://www.bypeople.com/ransom-note-vector-font/">
+					<img src="https://www.bypeople.com/wp-content/uploads/2023/02/ransom-note-font-460x230.png" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="353706">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">This is a freebie Opentype font created with actual cut-out magazine letters. All characters are colored, the files include a .PNG and .SVG asset f... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=353706'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">This is a freebie Opentype font created with actual cut-out magazine letters. All characters are colored, the files include a .PNG and .SVG asset for each letter. Free for personal and commercial projects!
+Check out more Vector Fonts here.
+Features:
+
+	Font file in OTF format
+	Includes assets in PNG & SVG
+	Perfect for digital designs & printables
+
+
+
+
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=353706'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="353706">
+					<h1>Ransom Note Vector Font - OTF, PNG & SVG Files</h1>
+					<p class="post_main_content_p">This is a freebie Opentype font created with actual cut-out magazine letters. All characters are colored, the files include a .PNG and .SVG asset for each letter. Free for personal and commercial projects!
+Check out more Vector Fonts here.
+Features:
+
+	Font file in OTF format
+	Includes assets in PNG & SVG
+	Perfect for digital designs & printables
+
+
+
+
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																																																								<li>
+											<a href="https://www.bypeople.com/?p=217286" data-id="217286">
+												Vector Fonts												( 4 )
+											</a>
+										</li>
+																																			</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-853" data-post="353536">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/email-design-system">
+				<h1 class="item_title">Mailplates - Email Design System					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a> 
+				</div>
+				<a href="https://www.bypeople.com/email-design-system">
+					<img src="https://www.bypeople.com/wp-content/uploads/2023/01/email-design-system-460x230.png" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="353536">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">Check out this interesting Email design system that will help you create a better email experience for your customers and effective marketing for y... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=353536'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">Check out this interesting Email design system that will help you create a better email experience for your customers and effective marketing for your business. Find out more Email Templates.
+Features:
+Sketch file format
+Free for personal and commercial use
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=353536'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="353536">
+					<h1>Mailplates - Email Design System</h1>
+					<p class="post_main_content_p">Check out this interesting Email design system that will help you create a better email experience for your customers and effective marketing for your business. Find out more Email Templates.
+Features:
+Sketch file format
+Free for personal and commercial use
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																																																								<li>
+											<a href="https://www.bypeople.com/?p=207647" data-id="207647">
+												Email Templates												( 5 )
+											</a>
+										</li>
+																																			</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-853" data-post="352428">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/christmas-watercolor-clipart">
+				<h1 class="item_title">Christmas Watercolor Clipart					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a> 
+				</div>
+				<a href="https://www.bypeople.com/christmas-watercolor-clipart">
+					<img src="https://www.bypeople.com/wp-content/uploads/2022/12/christmas-watercolor-clipart-460x230.png" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="352428">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">Check out this beautiful collection featuring watercolor clipart that is perfect to create cards, invitations, printable material, planners, sticke... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=352428'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">Check out this beautiful collection featuring watercolor clipart that is perfect to create cards, invitations, printable material, planners, stickers, and more. Check out also these Watercolor Brushes.
+Features:
+33 PNG files
+300dpi resolution - transparent background
+Free for personal and commercial use
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=352428'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="352428">
+					<h1>Christmas Watercolor Clipart</h1>
+					<p class="post_main_content_p">Check out this beautiful collection featuring watercolor clipart that is perfect to create cards, invitations, printable material, planners, stickers, and more. Check out also these Watercolor Brushes.
+Features:
+33 PNG files
+300dpi resolution - transparent background
+Free for personal and commercial use
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																																																								<li>
+											<a href="https://www.bypeople.com/?p=144290" data-id="144290">
+												Photoshop Watercolor Brushes												( 37 )
+											</a>
+										</li>
+																																			</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-853" data-post="349922">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/adobe-xd-product-ui-kit">
+				<h1 class="item_title">Adobe XD Product Widget					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a> 
+				</div>
+				<a href="https://www.bypeople.com/adobe-xd-product-ui-kit">
+					<img src="https://www.bypeople.com/wp-content/uploads/2022/09/adobe-xd-product-widget-460x230.png" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="349922">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">Grab a fantastic freebie featuring a bunch of product widget designs including lots of variations that you can use in your projects or use for insp... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=349922'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">Grab a fantastic freebie featuring a bunch of product widget designs including lots of variations that you can use in your projects or use for inspiration. Find out more Adobe XD UI Kits.
+Features:
+Column & row versions
+Everything is fully assembled
+Free for personal use
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=349922'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="349922">
+					<h1>Adobe XD Product Widget</h1>
+					<p class="post_main_content_p">Grab a fantastic freebie featuring a bunch of product widget designs including lots of variations that you can use in your projects or use for inspiration. Find out more Adobe XD UI Kits.
+Features:
+Column & row versions
+Everything is fully assembled
+Free for personal use
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																																																								<li>
+											<a href="https://www.bypeople.com/?p=217301" data-id="217301">
+												Adobe XD UI KIts												( 9 )
+											</a>
+										</li>
+																																			</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-853" data-post="347590">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/scribbles-vector-pack">
+				<h1 class="item_title">Scribbles Vector Pack					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a> 
+				</div>
+				<a href="https://www.bypeople.com/scribbles-vector-pack">
+					<img src="https://www.bypeople.com/wp-content/uploads/2022/07/funky-scribbbles-pack-460x230.png" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="347590">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">This pack contains a funky selection of 100+ vectorized scribbles that are perfect for adding a little something extra to your pages. It allows you... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=347590'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">This pack contains a funky selection of 100+ vectorized scribbles that are perfect for adding a little something extra to your pages. It allows you to change to a color of your choosing. Find out more Graphic Design Tools.
+Features:
+Version 1.0 also included
+Used by over 25,000 designers worldwide
+100% vectors
+Free for personal use
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=347590'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="347590">
+					<h1>Scribbles Vector Pack</h1>
+					<p class="post_main_content_p">This pack contains a funky selection of 100+ vectorized scribbles that are perfect for adding a little something extra to your pages. It allows you to change to a color of your choosing. Find out more Graphic Design Tools.
+Features:
+Version 1.0 also included
+Used by over 25,000 designers worldwide
+100% vectors
+Free for personal use
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																																																								<li>
+											<a href="https://www.bypeople.com/?p=137039" data-id="137039">
+												Graphic Design Tools												( 40 )
+											</a>
+										</li>
+																																			</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="grid__item post_container post-div cat-853 cat-1505" data-post="342216">
+	<div class="post-main-info">
+		<div>
+			<a href="https://www.bypeople.com/photoshop-sticker-pack-fully-editable/">
+				<h1 class="item_title">Photoshop Sticker Pack - Fully Editable					
+				</h1>
+			</a>
+		</div>
+		<!--<div class="loader"></div>-->
+		<div>
+			<div class="post-thumb-area">
+				<div class="ribbon-categories">
+					<a class="ribbon-categories-list" href="https://www.bypeople.com/design-freebies/" alt="View all posts in Design Assets">Design Assets</a><a class="ribbon-categories-list" href="https://www.bypeople.com/stickers" alt="View all posts in Stickers">Stickers</a> 
+				</div>
+				<a href="https://www.bypeople.com/photoshop-sticker-pack-fully-editable/">
+					<img src="https://www.bypeople.com/wp-content/uploads/2022/02/free-sticker-pack-psd-460x230.png" loading="lazy" width="460" height="230">
+				</a>
+				<div class="social-buttons" data-post="342216">
+					<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>
+									</div>
+			</div>
+			<div class="inlist_items">
+				<p class="item_content">Check out this sticker pack delivered for Photoshop, fully editable featuring 7 stickers that are perfect examples for your next project. Check als... <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=342216'>view more</a></b></span>-->				</p>
+				<p class="item_content_list_view">Check out this sticker pack delivered for Photoshop, fully editable featuring 7 stickers that are perfect examples for your next project. Check also these Photoshop Stamps.
+ <!--<span><b><a class='read-more-post' href='https://www.bypeople.com/?p=342216'>view more</a></b></span>-->				</p>
+
+				<div class="post-content" style="display: none;" data-post="342216">
+					<h1>Photoshop Sticker Pack - Fully Editable</h1>
+					<p class="post_main_content_p">Check out this sticker pack delivered for Photoshop, fully editable featuring 7 stickers that are perfect examples for your next project. Check also these Photoshop Stamps.
+</p>
+				</div>
+				<div class="underBox">
+					<ul>
+																																																								<li>
+											<a href="https://www.bypeople.com/?p=54095" data-id="54095">
+												Photoshop Stamps												( 12 )
+											</a>
+										</li>
+																																			</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+							</div>
+						</div>
+					</div>
+								<hr>
+				<div class="secondary_content_single related_lists">
+					<h3 class="home-subtitle post-v2-main-title col-flex-end">Related Lists</h3>
+					<div class="related_posts_area">
+						<div class="flex_items_v2">
+											<div class="grid__item item_collections post_container post-div cat-853" data-post="51053">
+			<div class="post-main-info post-modal">
+				<a href="https://www.bypeople.com/?p=51053" target="_blank"><h1 class="item_title title_collections">PSD Menu</h1></a><!--</a>-->
+																		<div class="list-grid-inner-featured-collection list-related-page"><span>29 items</span></div>
+					<a href="https://www.bypeople.com/?p=51053" target="_blank"><p class="item_content" style="padding: 15px">A collection of compelling menus in PSD format to show the specialties of your restaurant in a stylish way. <!--<span><b><a class='read-more-post load-screen-post' href='http://www.bypeople.com/?post_type=posts-lists&#038;p=51053'><span style='color: #009fb4'>&nbsp;view more</span></a></b></span>--></p></a>
+					<div class="post-content" style="display: none;" data-post="51053">
+						<h1>PSD Menu</h1>
+						<p class="post_main_content_p">A collection of compelling menus in PSD format to show the specialties of your restaurant in a stylish way.</p>
+					</div>
+					<div class="social-buttons social-buttons-collections" data-post="51053">
+						<!--<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>-->
+						<!--<button class="social-button interact-button-main" data-social="follow"><i class="fa fa-flag"></i></button>-->
+						<!--<button class="social-button" data-social="share"><i class="fa fa-share"></i></button>-->
+						<!--<button class="social-button" data-social="comment"><a href=""><i class="fa fa-comment"></i></a></button>-->
+					</div>
+							</div>
+		</div>
+						<div class="grid__item item_collections post_container post-div cat-853" data-post="23485">
+			<div class="post-main-info post-modal">
+				<a href="https://www.bypeople.com/?p=23485" target="_blank"><h1 class="item_title title_collections">PSD Dropdown Design</h1></a><!--</a>-->
+																		<div class="list-grid-inner-featured-collection list-related-page"><span>18 items</span></div>
+					<a href="https://www.bypeople.com/?p=23485" target="_blank"><p class="item_content" style="padding: 15px">Grab one of these PSD dropdown designs and give your users and attractive and efficient experience when navigating through options. <!--<span><b><a class='read-more-post load-screen-post' href='http://www.bypeople.com/posts-lists/sexy-dropdown-menus-in-psd/'><span style='color: #009fb4'>&nbsp;view more</span></a></b></span>--></p></a>
+					<div class="post-content" style="display: none;" data-post="23485">
+						<h1>PSD Dropdown Design</h1>
+						<p class="post_main_content_p">Grab one of these PSD dropdown designs and give your users and attractive and efficient experience when navigating through options.</p>
+					</div>
+					<div class="social-buttons social-buttons-collections" data-post="23485">
+						<!--<button class="social-button interact-button-main" data-social="like"><i class="fa fa-heart"></i></button>-->
+						<!--<button class="social-button interact-button-main" data-social="follow"><i class="fa fa-flag"></i></button>-->
+						<!--<button class="social-button" data-social="share"><i class="fa fa-share"></i></button>-->
+						<!--<button class="social-button" data-social="comment"><a href=""><i class="fa fa-comment"></i></a></button>-->
+					</div>
+							</div>
+		</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="disqus_single">
+					<div class="related_posts_area">
+						<!--<div id="disqus_thread"></div>
+						<script>
+
+						/**
+						*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+						*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+						/*
+						*/
+						var disqus_config = function () {
+						this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+						this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+						};
+						
+						(function() { // DON'T EDIT BELOW THIS LINE
+						var d = document, s = d.createElement('script');
+						s.src = 'https://bypeopleteam.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+						})();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+						<div id="wp_discuz_load" data-post="12286">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--PDT Paypal TEST-->
+<div>
+
+		</div>
+
+
+<!-- Getsitecontrol Start -->
+<!-- Getsitecontrol End -->
+
+
+	<script>
+		function addScrillHead() {
+			var head = document.getElementsByTagName('head')[0];
+			var s1 = document.createElement("script");
+			s1.setAttribute('token', "fa727054-4566-3617-99c8-5bc6a0bd03b5");
+			s1.setAttribute('async', true);
+			s1.src = "https://www.bypeople.com/topbar/script/initialize.js?v1";
+			head.appendChild(s1);
+		}
+
+		var timerScroll = false;
+		window.addEventListener('scroll', function() {
+			if (!timerScroll) {
+				addScrillHead()
+				timerScroll = true;
+			}
+		});
+	</script>
+<!--<script async src="https://www.bypeople.com/topbar/script/initialize.js?v1" token="fa727054-4566-3617-99c8-5bc6a0bd03b5"></script>-->
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+<!-- <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></noscript> -->
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+<noscript>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</noscript>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<!-- Footer -->
+<!-- <footer class="bg-white" style="position: absolute; width: 100%">
+	<div class="container py-5">
+		<div class="row py-4 mx-0">
+			<div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img class="bypeople_logo" src="https://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/v2/bypeople-logo.svg" width="30" height="30" style="display: inline-block">
+				<h6 class="text-uppercase font-weight-bold mb-4" style="display: inline-block; font-family: Poppins, sans-serif">We Make Projects</h6>
+				<p class="text-muted">Fully funded and bootstrapped by us, and ranging from digital design to web development</p>
+				<ul class="list-inline mt-4">
+					<li class="list-inline-item"><a href="https://www.facebook.com/ByPeopleTeam" target="_blank" title="facebook" style="color: #1C1D1E"><i class="fab fa-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/bypeopleteam" target="_blank" title="twitter" style="color: #1C1D1E"><i class="fab fa-twitter"></i></a></li>
+				<li class="list-inline-item"><a href="https://www.bypeople.com/feed" target="_blank" title="rss" style="color: #1C1D1E"><i class="fa fa-rss"></i></a></li>
+				<li class="list-inline-item"><a href="https://www.behance.net/iconshock" target="_blank" title="behance" style="color: #1C1D1E"><i class="fab fa-behance"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+				<h6 class="text-uppercase font-weight-bold mb-4" style="font-family: Poppins, sans-serif">Quick links</h6>
+				<ul class="list-unstyled mb-0">
+				<li class="mb-2"><a href="/" class="text-muted">Home</a></li>
+				<li class="mb-2"><a href="/about" class="text-muted">About</a></li>
+				<li class="mb-2"><a href="/premium" class="text-muted">Premium</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+				<h6 class="text-uppercase font-weight-bold mb-4" style="min-height: 19px"></h6>
+				<ul class="list-unstyled mb-0">
+				<li class="mb-2"><a class="text-muted" id="user-data" href="#" data-toggle="modal" data-target="#modal-session">Login</a></li>
+				<li class="mb-2"><a href="/faq" class="text-muted">FAQ</a></li>
+				<li class="mb-2"><a href="/testimonials" class="text-muted">Testimonials</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+				<h6 class="text-uppercase font-weight-bold mb-4" style="min-height: 19px"></h6>
+				<ul class="list-unstyled mb-0">
+				<li class="mb-2"><a href="/privacy" class="text-muted">Privacy policy</a></li>
+				<li class="mb-2"><a href="/terms" class="text-muted">Terms of use</a></li>
+				<li class="mb-2"><a href="/licenses" class="text-muted">Licenses</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="bg-light py-4">
+		<div class="container text-center">
+		<p class="text-muted mb-0 py-2">© 2021 ByPeople All rights reserved.</p>
+		</div>
+	</div>
+</footer> -->
+<!-- End -->
+
+<script type="module" src="https://static.bypeople.com/footer/global-footer.esm.js?data=MDYwMzIwMjUxNDQ3" data-stencil></script>
+<script nomodule src="https://static.bypeople.com/footer/global-footer.js?data=MDYwMzIwMjUxNDQ3" data-stencil></script>
+<global-footer></global-footer>
+
+
+</body>
+
+</html>
+<!-- *´¨)
+     ¸.•´¸.•*´¨) ¸.•*¨)
+     (¸.•´ (¸.•` ¤ Comet Cache is Fully Functional ¤ ´¨) -->
+
+<!-- Cache File Version Salt:       n/a -->
+
+<!-- Cache File URL:                https://www.bypeople.com/beautiful-dropdown-list-psd/ -->
+<!-- Cache File Path:               /cache/comet-cache/cache/https/www-bypeople-com/beautiful-dropdown-list-psd.html -->
+
+<!-- Cache File Generated Via:      HTTP request -->
+<!-- Cache File Generated On:       Mar 6th, 2025 @ 3:14 pm UTC -->
+<!-- Cache File Generated In:       2.05278 seconds -->
+
+<!-- Cache File Expires On:         Sep 3rd, 2025 @ 3:14 pm UTC -->
+<!-- Cache File Auto-Rebuild On:    Sep 3rd, 2025 @ 3:14 pm UTC -->
+
+<!-- Loaded via Cache On:    Mar 8th, 2025 @ 2:29 pm UTC -->
+<!-- Loaded via Cache In:    0.14646 seconds -->
